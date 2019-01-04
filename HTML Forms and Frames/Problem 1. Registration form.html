@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<h2><center>HTML Table</center></h2>
+
+<table align="center">
+	<form>
+  <tr>
+    <td>Last Name</td>
+    <td><input type ="text" name="Last Name" value="" size="75"></td>
+  </tr>
+  <tr>
+    <td>First Name</td>
+    <td><input type ="text" name="First Name" value="" size="75"></td>
+  </tr>
+  <tr>
+    <td>Address</td>
+    <td><textarea rows="4" cols="50" name="comment" form="usrform">
+		Enter your address here...</textarea></td>
+  </tr>
+  <tr>
+    <td>City</td>
+    <td><input type ="text" name="City" value=""> <b>State</b> <input type ="text" name="State" value=""></td>
+  </tr>
+  <tr>
+    <td>Zip/Postal Code</td>
+    <td><input type ="text" name="Address" value=""></td>
+  </tr>
+  <tr>
+    <td>Country</td>
+    <td>
+    	<select name="cars">
+	  		<option value="Vietnam">Vietnam</option>
+	  		<option value="Cambodia">Cambodia</option>
+	  		<option value="Laos">Laos</option>
+	  		<option value="Singapore">Singapore</option>
+		</select>
+    </td>
+  </tr>
+
+  <tr>
+    <td>Phone (country code, area code, number)</td>
+    <td>(+ <input type ="text" name="Country Code" value=""> ) <input type ="text" name="Area Code" value=""> <input type ="text" name="Number" value=""> </td>
+  </tr>
+
+   <tr>
+    <td>Email</td>
+    <td><input type ="text" name="Email" value="" size="75"></td>
+  </tr>
+
+   <tr>
+    <td>Birthdate</td>
+    <td><input type ="date" name="Email" value="" size="65"></td>
+  </tr>
+	<tr>
+	    <td>Gender</td>
+    <td>
+    	<select name="Gender">
+	  		<option value="Male" size="75">Male</option>
+	  		<option value="Female">Female</option>
+		</select>
+    </td>
+	  </tr>
+
+	  <tr>
+	    <td>Starting date</td>
+    <td>
+    	<input type="radio" name="Starting date" value=""> Spring 2016 <input type="radio" name="Starting date" value=""> Summer 2016
+    </td>
+
+	  </tr>
+	<tr>
+	    <td>Comments/Questions</td>
+    <td>
+    	<textarea rows="4" cols="50" name="comment" form="usrform">
+		Enter your comments here...</textarea>
+    </td>
+	</tr>
+
+	<tr id="lastrow">
+	    <td colspan="2"><input type="submit"> <input type="reset"> </td>
+	</tr>
+
+</form>
+</table>
+</body>
+
+<style>
+
+table {
+  font-family: arial, sans-serif;
+  width: 75%;
+  height: 25px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 20px 15px
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 2px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+input[type=text], select {
+  padding: 5px 10px;
+  margin: 3px 0;
+  border: 2px solid #black;
+  border-radius: 2px;
+}
+
+input[type=submit], [type=reset] {
+  background-color: blue; 
+  border: none;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20%;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#lastrow{
+	background-color: purple;
+}
+
+</style>
+
+
+
+
+</html>
